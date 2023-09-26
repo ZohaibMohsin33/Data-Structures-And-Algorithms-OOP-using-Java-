@@ -257,6 +257,30 @@ public class Intermediate {
 //        }
 //        System.out.println("The L.C.M of the following two numbers is " + lcm);
 
+
+//        Pythagorean Triplet
+//          System.out.println("Enter the 3 numbers to check it is pythagorean triplet or not");
+//          int one = input.nextInt();
+//          int two = input.nextInt();
+//          int three = input.nextInt();
+//
+//          if(one*one == two*two + three*three || two*two == one * one + three*three || three*three == one*one + two*two){
+//              System.out.println("It is pythagorean triplet");
+//          }
+//          else {
+//              System.out.println("It is not pythagorean triplet");
+//          }
+
+        int[] nums = {0,2,1,5,3,4};
+        ArrayList<Integer> copied   = new ArrayList<Integer>();
+
+        for(int x : nums){
+            int store = nums[x];
+            System.out.println(store);
+        }
+
+
+
     }
 
     static long power(int a, int b){
