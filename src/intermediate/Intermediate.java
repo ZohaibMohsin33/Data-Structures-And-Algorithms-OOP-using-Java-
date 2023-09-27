@@ -1,5 +1,6 @@
 package intermediate;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Intermediate {
@@ -271,13 +272,44 @@ public class Intermediate {
 //              System.out.println("It is not pythagorean triplet");
 //          }
 
-        int[] nums = {0,2,1,5,3,4};
-        ArrayList<Integer> copied   = new ArrayList<Integer>();
+//        int[] nums = {0,2,1,5,3,4};
+//        ArrayList<Integer> copied   = new ArrayList<Integer>();
+//
+//        for(int x : nums){
+//            int store = nums[x];
+//            System.out.println(store);
+//        }
 
-        for(int x : nums){
-            int store = nums[x];
-            System.out.println(store);
+//        String[] arr = {"Kunal","Kushwaha"};
+//        String name = "name";
+//        switch (name){
+//            case "name":
+//                System.out.println("i'm running down here");
+//                break;
+//            case "naam" :
+//                System.out.println("Everything is sorted");
+//                break;
+
+        int[][] image = new int[3][3];
+        int[][] send = new int[image.length][image[0].length];
+
+        for(byte i =0; i <image.length;i++){
+            byte index = 0;
+            for (byte j = image[i].length-1 ; j >= 0;j--){
+                if(image[i][j] == 0){
+                    send[i][index] = 1;
+                }
+
+                else if(image[i][j] == 1){
+                    send[i][index] = 0;
+                }
+
+                index++;
+            }
         }
+        return send ;
+
+    }
 
 
 
