@@ -7,7 +7,7 @@ public class Intermediate {
     public static void main(String[] args) {
         //counting sequence
 
-        Scanner input = new Scanner(System.in);
+//        Scanner input = new Scanner(System.in);
 //        System.out.println("Enter the whole number");
 //        long number = input.nextLong();
 //        System.out.println("Enter the digit to find the occurances");
@@ -290,46 +290,43 @@ public class Intermediate {
 //                System.out.println("Everything is sorted");
 //                break;
 
-        int[][] image = new int[3][3];
-        int[][] send = new int[image.length][image[0].length];
-
-        for(byte i =0; i <image.length;i++){
-            byte index = 0;
-            for (byte j = image[i].length-1 ; j >= 0;j--){
-                if(image[i][j] == 0){
-                    send[i][index] = 1;
-                }
-
-                else if(image[i][j] == 1){
-                    send[i][index] = 0;
-                }
-
-                index++;
-            }
-        }
-        return send ;
-
+//        int[][] image = new int[3][3];
+//        int[][] send = new int[image.length][image[0].length];
+//
+//        for(byte i =0; i <image.length;i++){
+//            byte index = 0;
+//            for (byte j = image[i].length-1 ; j >= 0;j--){
+//                if(image[i][j] == 0){
+//                    send[i][index] = 1;
+//                }
+//
+//                else if(image[i][j] == 1){
+//                    send[i][index] = 0;
+//                }
+//
+//                index++;
+//            }
+//        }
+//        return send ;
+//
     }
-
-
-
-    }
-
-    static long power(int a, int b){
-        long tot = a;
-        for(int i =2;i<=b;i++){
-            tot = tot*a;
-        }
-        return tot;
-    }
-
-
-    static int factorial (int n){
-        if(n== 0 || n== 1){
-            return 1;
-        }
-        else
-            return n * factorial(n-1);
-
-    }
-}
+   }
+//
+//    static long power(int a, int b){
+//        long tot = a;
+//        for(int i =2;i<=b;i++){
+//            tot = tot*a;
+//        }
+//        return tot;
+//    }
+//
+//
+//    static int factorial (int n){
+//        if(n== 0 || n== 1){
+//            return 1;
+//        }
+//        else
+//            return n * factorial(n-1);
+//
+//    }
+//}
