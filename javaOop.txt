@@ -241,3 +241,23 @@ U can create static methods in abstract classes, but can create an abstract meth
 if we put a final behind a class it prevent from being inherited, so we can't create final abstract classes
 
 Multiple inheritance isn't allowed in java due to the reason what if both parents contain a method with same name and child get confused which one to print.
+
+Interfaces : 
+
+Interface_parent parent = new ChildClass(); This holds also true 
+public interface A{
+ int mid ;
+}
+
+public class Main implements A{
+
+}
+
+interface to interface inheritance we use extends keyword
+Static interface methods should always have a body because they can't be inherited
+
+NOte : if u declared a method as protected in interface then in class that method should be protected or better than that which is 
+(public) it can't be less than protected which is (default, private)
+
+in interface nesting, the nested interface can be declared as public,private or anything
+But the parent interface should be the public or default one only
