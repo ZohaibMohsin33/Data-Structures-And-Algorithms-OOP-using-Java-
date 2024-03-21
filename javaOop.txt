@@ -223,3 +223,21 @@ System.out.println(obj instanceof A);        It'll print true or false //It will
 System.out.println(obj1.getClass());         .getClass().getName()
 
 getClass() data stores in the heap we can find other stuff by using the dot operator with the getClass method
+
+Video 5 : 
+
+                                 career(name)   //This is the parent class, the nature of the parent class is given it's body isn't given
+        1.career(name){ name = "coder"}        2.career(name){ name : "doctor"} //The parent is just giving the referce of the body how it looks like
+
+When a function in a class don't have a body, it totally depends upon the child classes to provide body to it 
+This is called abstract methods
+
+Note : if a class contains any of the abstract method it should also be declared as abstract
+U can create constructors of an abstract class but u can't create objects of an abstract class.
+
+static methods can't be overriden so u can't create static abstract methods
+U can create static methods in abstract classes, but can create an abstract method as static 
+
+if we put a final behind a class it prevent from being inherited, so we can't create final abstract classes
+
+Multiple inheritance isn't allowed in java due to the reason what if both parents contain a method with same name and child get confused which one to print.

@@ -6,11 +6,11 @@ public class DicePermutation {
 
     public static void main(String[] args) {
         ArrayList<ArrayList<Integer>> arr = new ArrayList<>();
-        int[] arr = {1,2,3,4,5,6};
+        int[] varr = {1,2,3,4,5,6};
     }
 
     public void perms (int[] arr,int digit,int target){
-        
+
 
     }
 }
