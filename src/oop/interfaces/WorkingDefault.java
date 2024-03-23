@@ -15,6 +15,6 @@ interface AnotherWorking{
  class check implements WorkingDefault,AnotherWorking{
     @Override
     public void working(){
-        
+
     }
 }
