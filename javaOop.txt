@@ -261,3 +261,6 @@ NOte : if u declared a method as protected in interface then in class that metho
 
 in interface nesting, the nested interface can be declared as public,private or anything
 But the parent interface should be the public or default one only
+
+Video 6 : 
+
