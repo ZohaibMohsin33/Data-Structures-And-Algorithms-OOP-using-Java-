@@ -264,3 +264,17 @@ But the parent interface should be the public or default one only
 
 Video 6 : 
 
+ArrayList <Integer> list = new ArrayList<>();
+This wrapup of data type in the <> brackets is known as Generics
+It is used for the type safety, generics can't be of primitive type
+
+Note : U can't create an instance of generics type, because byte code has no idea about it
+We can restrict generics only to the numbers also by <T extends Number>
+Read the documentation of generics
+
+Arrow Representation is called lambda function
+(a,b) -> {sout("Hello")}
+
+Exception handling 
+
+Error is basically not recoverable but the expectional can be handled such as divided by 0 is an exception
