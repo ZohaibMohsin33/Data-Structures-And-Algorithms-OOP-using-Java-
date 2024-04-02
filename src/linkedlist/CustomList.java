@@ -24,6 +24,25 @@ public class CustomList {
 
     }
 
+    public Node headSend(){
+        return head;
+    }
+
+    public void recursionArguments(int val,int index){
+        insertRecursion(head,0,index,val);
+    }
+
+    public void insertRecursion(Node prev,int count, int index, int val){
+        if(index == count+1){
+            Node node = new Node(val);
+            node.next = prev.next;
+            prev.next = node;
+            size++;
+            return;
+        }
+
+        insertRecursion(prev.next,++count,index,val);
+    }
     public void insertFirst(int val){
         Node node = new Node(val);
         node.next = head;
