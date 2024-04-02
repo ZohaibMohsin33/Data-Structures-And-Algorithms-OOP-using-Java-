@@ -1,4 +1,4 @@
-Objects are gonna store in heap memory 
+Objects are gonna store in linkedlist memory
 while reference variables are gonna store in stack
 Primitive data types also store only in stack memory
 
@@ -222,7 +222,7 @@ Instance of :
 System.out.println(obj instanceof A);        It'll print true or false //It will print true if object is instance of some derieved class of A
 System.out.println(obj1.getClass());         .getClass().getName()
 
-getClass() data stores in the heap we can find other stuff by using the dot operator with the getClass method
+getClass() data stores in the linkedlist we can find other stuff by using the dot operator with the getClass method
 
 Video 5 : 
 
