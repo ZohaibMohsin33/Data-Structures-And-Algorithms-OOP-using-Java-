@@ -61,6 +61,7 @@ public class SudokoSolver {
                     board[row][col] = 0;
                 }
             }
+            
         }
         return false;
     }
